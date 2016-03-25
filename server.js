@@ -9,6 +9,6 @@ require('./server/config/routes.js')(app);
 
 app.use(express.static(path.join(__dirname, './client')));
 
-app.listen(8030, function(){
-	console.log('Listening in on port 8030 for 1955 API');
+app.listen(8000, function(){
+	console.log('Listening in on port 8000 for 1955 API');
 });
